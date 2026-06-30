@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Curriculum Vitae – Maria</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 40px;
+      background: #f5f7fb;
+      color: #222;
+    }
+    .cv-container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 32px 40px;
+      border-radius: 14px;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.06);
+    }
+    h1, h2, h3 {
+      margin-top: 0;
+      font-weight: 600;
+    }
+    h1 {
+      font-size: 2rem;
+      letter-spacing: 0.03em;
+    }
+    h2 {
+      margin-top: 28px;
+      font-size: 1.2rem;
+      color: #1f3b6b;
+      border-bottom: 1px solid #e2e6f0;
+      padding-bottom: 6px;
+    }
+    h3 {
+      font-size: 1rem;
+      margin-top: 18px;
+      color: #2c3e50;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .name-block {
+      flex: 2;
+    }
+    .contact-block {
+      flex: 1.4;
+      font-size: 0.9rem;
+      text-align: right;
+      color: #4b5563;
+    }
+    .tagline {
+      font-size: 0.95rem;
+      color: #4b5563;
+      margin-top: 4px;
+    }
+    ul {
+      margin: 8px 0 0 18px;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 4px;
+    }
+    .section-text {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #374151;
+    }
+    .pill {
+      display: inline-block;
+      background: #e3ebff;
+      color: #1f3b6b;
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      margin-bottom: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <!-- Encabezado -->
+    <header class="header">
+      <div class="name-block">
+        <h1>Maria</h1>
+        <div class="tagline">
+          DevOps · Gestión de Servicios · Calidad · Ciberseguridad
+        </div>
+      </div>
+      <div class="contact-block">
+        Vicente López, Buenos Aires, Argentina<br />
+        Disponibilidad: híbrido / remoto<br />
+        <!-- Podés agregar email y teléfono aquí -->
+        <!-- e.g. correo@ejemplo.com · +54 11 xxx xxxx -->
+      </div>
+    </header>
+
+    <!-- Perfil -->
+    <section>
+      <h2>Perfil Profesional</h2>
+      <p class="section-text">
+        Profesional proactiva, analítica y orientada al servicio. Experta en gestión de servicios,
+        calidad, DevOps/DevSecOps y ciberseguridad. Transformo datos en información útil y procesos
+        en resultados medibles. Me destaco por mi comunicación clara, documentación precisa y
+        enfoque en mejora continua.
+      </p>
+    </section>
+
+    <!-- Competencias -->
+    <section>
+      <h2>Competencias Clave</h2>
+      <div>
+        <span class="pill">DevOps</span>
+        <span class="pill">DevSecOps</span>
+        <span class="pill">Gestión de Servicios (ITIL)</span>
+        <span class="pill">Mejora continua (PDCA, 7 pasos)</span>
+        <span class="pill">Auditorías y no conformidades</span>
+        <span class="pill">Ciberseguridad y trazabilidad</span>
+        <span class="pill">Documentación técnica</span>
+        <span class="pill">Recursos educativos visuales</span>
+      </div>
+    </section>
+
+    <!-- Conocimientos técnicos -->
+    <section>
+      <h2>Conocimientos Técnicos</h2>
+      <ul>
+        <li>Infraestructura como Código: Terraform</li>
+        <li>Monitoreo y observabilidad: Grafana, Prometheus</li>
+        <li>Seguridad del código: SAST, DAST</li>
+        <li>Normas: ISO 27001, ISO 20000, ISO 22301</li>
+        <li>Gestión de calidad: CSF, KPI, acciones correctivas</li>
+        <li>Sistemas operativos: Linux, Ubuntu Server</li>
+        <li>Virtualización: VirtualBox</li>
+        <li>Python (Anaconda / Jupyter)</li>
+      </ul>
+    </section>
+
+    <!-- Experiencia -->
+    <section>
+      <h2>Experiencia Profesional</h2>
+
+      <h3>Gestión de Procesos y Calidad</h3>
+      <ul>
+        <li>Implementación de acciones correctivas basadas en análisis de causa raíz.</li>
+        <li>Documentación y trazabilidad de controles críticos para auditorías y ciberdefensa.</li>
+        <li>Presentación de información a dirección utilizando la escalera de valor (dato → información → conocimiento → sabiduría).</li>
+      </ul>
+
+      <h3>DevOps / DevSecOps</h3>
+      <ul>
+        <li>Integración de seguridad desde el inicio del ciclo de vida del servicio.</li>
+        <li>Automatización de despliegues y gestión de control de cambios para evitar impacto en producción.</li>
+        <li>Monitoreo continuo para detección de problemas en tiempo real y mejora de la estabilidad.</li>
+      </ul>
+
+      <h3>Ciberseguridad</h3>
+      <ul>
+        <li>Generación de evidencia y documentación para reducir riesgos de negligencia ante incidentes.</li>
+        <li>Evaluación de controles, hallazgos de mejora y acciones correctivas asociadas.</li>
+      </ul>
+    </section>
+
+    <!-- Formación -->
+    <section>
+      <h2>Formación</h2>
+      <p class="section-text">
+        (Completar con tu título, institución y año. Ejemplo:)<br />
+        <strong>Licenciatura / Tecnicatura en &lt;Carrera&gt;</strong> – &lt;Institución&gt; (&lt;Año de egreso&gt;)
+      </p>
+    </section>
+
+    <!-- Proyectos -->
+    <section>
+      <h2>Proyectos y Recursos</h2>
+      <ul>
+        <li>Creación de tablas comparativas bilingües (español/inglés) para foros y comunidades técnicas.</li>
+        <li>Diagramas minimalistas sobre DevOps, ciclo PDCA, proceso de mejora en 7 pasos y normas ISO.</li>
+        <li>Material educativo para estudiantes de sistemas, calidad y ciberseguridad.</li>
+      </ul>
+    </section>
+
+    <!-- Objetivo -->
+    <section>
+      <h2>Objetivo Profesional</h2>
+      <p class="section-text">
+        Desarrollarme en roles de DevOps, Gestión de Servicios, Calidad o Ciberseguridad, aportando
+        estructura, claridad y mejora continua a los procesos y servicios de la organización.
+      </p>
+    </section>
+  </div>
+</body>
+</html>
